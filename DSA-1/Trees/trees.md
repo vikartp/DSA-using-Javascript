@@ -22,6 +22,7 @@ Reference: https://www.geeksforgeeks.org/difference-between-full-and-complete-bi
 
 - Best possible scenario Big O of BST is O(logn), which is very close to O(1). It also works on 'Divide and Conquer'
 - Since Big O is a measure of worst possible scenario, technically the Big O of a binary search tree is O(n)
+- Omega (best case) and Theta (average case) are both (log n). However, worst case is O(n) and Big O measures worst case. The typically treat Binary Search Trees as O(log n) but technically they are O(n).
 
 - For lookup, insert, remove it is going to be O(logn)
 
