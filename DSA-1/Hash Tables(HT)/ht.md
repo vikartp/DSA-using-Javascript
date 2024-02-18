@@ -27,3 +27,9 @@
     But if we consider the built in hash table like Objects we get a very large address space so mostly it's going to assign a randomized space and hence we consider it as the `O(1)` if we need to find the item by key.
   - Key lookup is O(1) but not value.
   - Hash Table is `O(1)` for Insert and Lookup But it is always `not` better than a Binary Search Tree (worst case scenario will get benefit of divide and conquer)
+
+### Set
+
+- A Set is similar to a Map or an Object, except that instead of having key/value pairs, they only have the keys but not the values.
+
+Sets store a collection of unique elements (in other words, they do not allow duplicates).
