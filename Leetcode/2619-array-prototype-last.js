@@ -7,11 +7,8 @@
 /**
  * @return {null|boolean|number|string|Array|Object}
  */
-Array.prototype.last = function() {
-    if (!this.length) return -1;
-
-    const len = this.length;
-    return this.at(len-1);
+Array.prototype.last = function () {
+    return this.length ? this.at(this.length - 1) : -1;
 };
 
 /**
