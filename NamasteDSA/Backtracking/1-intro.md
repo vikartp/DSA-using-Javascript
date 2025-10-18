@@ -19,3 +19,15 @@
 
 => TRY A CHOICE => (WORKS? -> CONTINUE)
                 => [DIDN'T WORK -> UNDO (BACKTRACK)]
+
+## Notes
+
+- Backtracking uses DFS approach 
+
+## Use Cases
+
+- Subsets
+- Combinations
+- Permutations
+- N-Queens
+- A lot of choices & decisions + Pruning early using bounding function
