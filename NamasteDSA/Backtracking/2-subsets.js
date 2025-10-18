@@ -38,3 +38,7 @@ var subsets = function(nums) {
 
 // Example usage:
 console.log(subsets([1, 2, 3]));
+
+// Time Complexity: O(N * 2^N) where N is the number of elements in nums. 
+// There are 2^N subsets and generating each subset takes O(N) time in the worst case.
+// Space Complexity: O(N * 2^N) to store all the subsets.
