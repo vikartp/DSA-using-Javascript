@@ -57,3 +57,10 @@ var combinationSum3 = function(k, n) {
     backtrack(n, [], 1);
     return result;
 };
+
+// Example usage:
+console.log(combinationSum3(3, 7)); // Output: [[1,2,4]]
+
+
+// Time Complexity: `O(k * 9 choose k)` - The number of combinations of choosing k numbers from 9.
+// Space Complexity: O(k) - The maximum depth of the recursion tree can go up to k.
