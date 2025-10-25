@@ -52,5 +52,6 @@ console.log(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCC
 console.log(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "SEE")); // true
 console.log(exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCB")); // false
 
-// Time Complexity: O(N * 3^L) where N is the number of cells in the board and L is the length of the word.
+// Time Complexity: O(N * 3^L) where N is the number of cells in the board 
+// and L is the length of the word. N = m * n, where m is the number of rows and n is the number of columns.
 // Space Complexity: O(L) for the recursion stack.
