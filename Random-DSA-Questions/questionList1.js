@@ -116,4 +116,5 @@ function checkAnagram(a, b) {
     return a.split('').sort().join('') === b.split('').sort().join('');
 }
 
-checkAnagram('eat', 'tea')
+checkAnagram('eat', 'tea') // true
+checkAnagram('hello', 'billion') // false
