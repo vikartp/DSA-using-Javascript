@@ -52,3 +52,6 @@ var orangesRotting = function (grid) {
 
     return maxTime;
 };
+
+// Time Complexity: O(m*n)
+// Space Complexity: O(m*n) in worst case when all oranges are rotten
