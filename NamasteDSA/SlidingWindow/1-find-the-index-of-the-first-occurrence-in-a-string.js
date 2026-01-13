@@ -6,6 +6,8 @@
  * @return {number}
  */
 var strStr = function (haystack, needle) {
+    // Solution 0: Using indexOf
+    // return haystack.indexOf(needle);
     // Solution 1: Using while loop and substring method(Sliding Window)
     // Time Complexity : O(n*m), Space: O(1)
     // const n = haystack.length;
