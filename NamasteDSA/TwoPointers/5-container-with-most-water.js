@@ -15,3 +15,8 @@ var maxArea = function (height) {
     }
     return max;
 };
+// Two Pointer Approach:
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+
+// Brute-Force => O(n^2)
