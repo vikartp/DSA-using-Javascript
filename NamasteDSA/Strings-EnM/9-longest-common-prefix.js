@@ -8,6 +8,18 @@
  * @return {string}
  */
 var longestCommonPrefix = function (strs) {
+    // Brute-Force Approach
+    // let common = '';
+    // const first = strs[0];
+    // for(let i = 0; i < first.length; i++) {
+    //     if (strs.every(s => s[i] === first[i])) {
+    //         common += first[i];
+    //     } else { // When we find any character is not available in all elements, we return immediately
+    //         return common;
+    //     }
+    // }
+    // return common;
+    
     if (!strs.length) return "";
 
     const first = strs[0];
