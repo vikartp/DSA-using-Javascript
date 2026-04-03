@@ -25,5 +25,18 @@ var invertTree = function (root) {
     return root;
 };
 
+var invertTree2 = function(root) {
+    if (!root) return root;
+    const traverse = (curr) => {
+        let temp = curr.left;
+        curr.left = curr.right;
+        curr.right = temp;
+        curr.left && traverse(curr.left);
+        curr.right && traverse(curr.right);
+    }
+    traverse(root);
+    return root;
+};
+
 // Time Complexity: O(n) where n is the number of nodes in the tree
 // Space Complexity: O(h) where h is the height of the tree, due to recursive stack space. In worst case (skewed tree), it can be O(n).
