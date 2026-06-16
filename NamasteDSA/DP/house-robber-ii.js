@@ -36,11 +36,10 @@ var rob = function (val) {
     var robHelper = function (start, end) {
         let p2 = 0, p1 = 0;
         for (let i = start; i <= end; i++) {
-            let curr = Math.max(val[i] + p2, p1);
+            const curr = Math.max(val[i] + p2, p1);
             let temp = p1;
             p1 = curr;
             p2 = temp;
-            curr++;
         }
         return p1;
     };
